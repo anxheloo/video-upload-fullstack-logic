@@ -1,0 +1,8 @@
+1. Create the backend folder inside our video-player-uploader
+2. Inside Backend folder run npm init to initialize node modules
+3. npm install cors express dotenv mongoose nodemon multer
+4. We create the project structure for folders.
+5. We create the index.js file - our entry file
+6. We import cors for later, dotenv, app.use(express.json()) -> to parse JSON datas, and create some variables on .env file such as PORT & MONGODB_URL, than we listen and change the script in package.json to start: nodemon index.js
+7. We create video Route, export it and use in our app.
+8. We create the middlewares folder and create videoUpload middleware, require multer, path, and install uuid for unique video ids.
